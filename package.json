@@ -1,0 +1,32 @@
+{
+  "name": "webpack-custom-resolver",
+  "version": "1.0.0",
+  "description": "A minimal example demonstrating the usage of custom resolver plugins with webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "dev:bmw": "cross-env CUSTOMER=bmw webpack-dev-server",
+    "dev:ferrari": "cross-env CUSTOMER=ferrari webpack-dev-server"
+  },
+  "keywords": [
+    "webpack",
+    "vue",
+    "emotion"
+  ],
+  "author": "Thomas Holland",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "prettier": "^2.0.5",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@egoist/vue-emotion": "^0.6.2",
+    "emotion": "^10.0.27",
+    "vue": "^2.6.11"
+  }
+}
